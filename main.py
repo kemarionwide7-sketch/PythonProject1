@@ -1,14 +1,16 @@
 import sys
 import time
 import os
-from colorama import Fore, Style, init
+#from colorama import Fore, Style, init
 import random
 #Main Boxes for Board
 # list of combine boxes
 board = [1,2,3,4,5,6,7,8,9]
 
 #Player/computer chooses element
-while True:  # X or O user selection
+#while True:  # X or O user selection
+
+while True:
    print("Loading.")
    time.sleep(0.5)
    os.system('cls' if os.name == 'nt' else 'clear')
@@ -17,21 +19,6 @@ while True:  # X or O user selection
    os.system('cls' if os.name == 'nt' else 'clear')
    print("Loading...")
    time.sleep(0.5)
-   os.system('cls' if os.name == 'nt' else 'clear')
-   print("Welcome to the Tic-Tak-Toe game")
-   print("Pick a color for text")
-   print("R: for red.")
-   print("B: for blue.")
-   print("M: for magenta.")
-   color_pick = input("color selection:")
-   if color_pick == "R" or color_pick == "r":
-      print(Fore.RED+"Bloody >:[")
-   if color_pick == "B" or color_pick == "b":
-      print(Fore.BLUE+"Feeling blue :(")
-   if color_pick == "M" or color_pick == "m":
-      print(Fore.LIGHTMAGENTA_EX+"You use T-mobile?")
-   else:
-      print("Im assuming your basic or couldn't listen to basic instruction so here is basic white :|")
    os.system('cls' if os.name == 'nt' else 'clear')
    user_element = input("SELECT: X or O:")
    comp_element = ""  # empty
