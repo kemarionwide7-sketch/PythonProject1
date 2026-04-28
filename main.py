@@ -269,3 +269,4 @@ def main():
       winn_los_tie()
       quit_game_loop()
 main()
+input()
