@@ -228,7 +228,6 @@ def winn_los_tie():
       else:
          break
 
-
 def quit_game_loop():
    global board
    global check_string
