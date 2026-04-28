@@ -268,5 +268,6 @@ def main():
       comp_pick_position()
       winn_los_tie()
       quit_game_loop()
+input("skip this")
 main()
-input()
+
